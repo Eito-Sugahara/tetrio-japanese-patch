@@ -1,3 +1,7 @@
-Original:
+Original-repo:
   square3ang
   repo: https://github.com/tetriokoreanpatch/tetrio-korean-patch
+
+Fonts(たぬゴ):
+  たぬきフォント
+  url: https://tanukifont.com/tanugo/
