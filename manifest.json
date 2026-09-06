@@ -1,0 +1,30 @@
+{
+  "manifest_version": 3,
+  "name": "TETR.IO 日本語パッチ",
+  "version": "1.0.0",
+  "description": "TETR.IOを日本語化します。",
+  "host_permissions": [
+    "https://tetr.io/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://tetr.io/*"
+      ],
+      "js": [
+        "translate.js"
+      ],
+      "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "fonts/*.woff2"
+      ],
+      "matches": [
+        "https://tetr.io/*"
+      ]
+    }
+  ]
+}
